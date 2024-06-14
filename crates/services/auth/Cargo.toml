@@ -1,0 +1,10 @@
+[package]
+name = "auth"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# -- App Libs
+lib-log = { path = "../../libs/lib-log"}
+
+tokio = { version = "1.38.0", features = ["full"] }
