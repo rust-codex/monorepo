@@ -6,5 +6,6 @@ edition = "2021"
 [dependencies]
 # -- App Libs
 lib-log = { path = "../../libs/lib-log"}
+lib-utils = { path = "../../libs/lib-utils" }
 
 tokio = { version = "1.38.0", features = ["full"] }
