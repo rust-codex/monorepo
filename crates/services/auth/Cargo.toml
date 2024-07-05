@@ -8,4 +8,5 @@ edition = "2021"
 lib-log = { path = "../../libs/lib-log"}
 lib-utils = { path = "../../libs/lib-utils" }
 
+tracing = { workspace = true }
 tokio = { version = "1.38.0", features = ["full"] }

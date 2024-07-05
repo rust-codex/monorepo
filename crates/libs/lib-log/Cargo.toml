@@ -11,5 +11,5 @@ workspace = true
 
 [dependencies]
 # -- Tracing
-tracing = "0.1"
+tracing = { workspace = true }
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
